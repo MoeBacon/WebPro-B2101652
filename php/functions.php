@@ -292,7 +292,7 @@ if ($_GET['op'] == 'merchantUpload') {
             $img_ex_lc = strtolower($img_ex);
 
             $allowed_exs = array("jpg", "jpeg", "png");
-            if ($img_size > 1000000) {
+            if ($img_size > 1100000) {
                 echo "<script> alert('Sorry, your file is too large.');
                 location = '../merchant_add.php';
                 </script>";
@@ -402,7 +402,7 @@ if($_GET['op'] == "merchantUpdate"){
                 $img_ex_lc = strtolower($img_ex);
                 
                 $allowed_exs = array("jpg", "jpeg", "png");
-                if ($img_size > 1000000) {
+                if ($img_size > 1100000) {
                     echo "<script> alert('Sorry, your file is too large.');
                     
                     </script>";

@@ -368,21 +368,6 @@ button {
   background-color: #ef3139;
 }
 
-.btn-round.btn-dark-round,
-.btn-round.btn-dark-round:hover,
-.btn-round.btn-dark-round:focus {
-  color: #ef3139;
-}
-
-.btn-round.btn-dark-round:hover {
-  color: #ffffff;
-}
-
-.btn-dark-round:before {
-  background-color: #022d62;
-  opacity: 1;
-}
-
 a.text-primary:focus,
 a.text-primary:hover {
   color: #ef3139 !important;

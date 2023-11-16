@@ -3,9 +3,7 @@
     var script = {};
     var $window = $(window),
       $document = $(document),
-      $body = $('body'),
-      $countdownTimer = $('.countdown'),
-      $counter = $('.counter');
+      $body = $('body');
     $.fn.exists = function () {
       return this.length > 0;
     };
