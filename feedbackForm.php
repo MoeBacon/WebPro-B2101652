@@ -140,7 +140,7 @@ textarea {
 <body>
 
 	<div class="wrapper">
-		<h3>Rate Your Experience.</h3>
+		<h3>Rate The Website.</h3>
 		<form method="post" id="ratingInput" action="php/functions.php?op=feedback" onsubmit="return validateForm()">
 			<div class="rating">
 				<input type="number" name="rating" hidden >

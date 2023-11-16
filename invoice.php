@@ -102,7 +102,7 @@
   
 
   <div class="invoice-title top my-5">
-    <h1>Invoice</h1>
+    <h1>Receipt</h1>
   </div>
 
   <div class="invoice-body">

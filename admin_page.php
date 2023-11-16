@@ -87,7 +87,7 @@
                     ?>
                 </div>
                 <div class="dashboard col-3 py-3 mx-3">
-                    <h5>Mercahnt Request</h5>
+                    <h5>Merchant Request</h5>
                     <?php
                         $sql = "SELECT * FROM request WHERE Status='PENDING'";
                         $result = mysqli_query($dbConnection,$sql);

@@ -67,8 +67,8 @@
                         ?>
 
                         <section class="banner">
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper h-500 w-100">
+                            <div class="swiper-container" style="width:100%;height:500px;">
+                                <div class="swiper-wrapper">
                                     <?php
                                         global $dbConnection;
                                         $ID = $_GET['id'];

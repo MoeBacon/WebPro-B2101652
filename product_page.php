@@ -31,7 +31,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       padding: 20px;
       z-index: 1000;
-      width: 20%; /* Adjust the width to your desired size */
+      width: 30%; /* Adjust the width to your desired size */
     }
 
     /* Styles for the overlay background */
@@ -100,8 +100,8 @@
             }
         ?>
           <section class="banner">
-            <div class="swiper-container">
-              <div class="swiper-wrapper h-500 w-100">
+            <div class="swiper-container" style="width:100%;height:500px;">
+              <div class="swiper-wrapper">
               <?php
                 global $dbConnection;
                 $id = $_GET['id'];

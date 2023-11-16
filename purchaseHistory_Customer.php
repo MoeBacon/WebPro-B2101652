@@ -64,10 +64,22 @@
     <tbody>
     <?php
         global $dbConnection;
+        
+        $email = $_SESSION['username'];
+        $sql2 = "SELECT CustID FROM customer WHERE Email='$email'";
+        $result = mysqli_query($dbConnection,$sql2);
+        $CustID;
+        if($result){
+          $row = mysqli_fetch_assoc($result);
+          $CustID = $row['CustID'];
+        }
+
         $sql = "SELECT purchase.PurchaseID, purchase.Date, purchase.Total, purchase.ProductID, product.Name
         FROM purchase
-        JOIN product ON purchase.ProductID = product.ProductID;";
+        JOIN product ON purchase.ProductID = product.ProductID
+        WHERE CustID = '$CustID';";
         $purchaseQ = mysqli_query($dbConnection,$sql);
+
         $num = 1;
         while($purchase = mysqli_fetch_assoc($purchaseQ)){     
           echo '<tr">

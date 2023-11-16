@@ -218,7 +218,7 @@
                         
                             <div>
                             <label for="formFileLg" class="form-label">Upload all images in single selection(jpg,jpeg,png)</label>
-                            <input class="form-control form-control-lg" id="formFileLg" name="file[]" type="file" multiple>
+                            <input accept=".jpg,.jpeg,.png" class="form-control form-control-lg" id="formFileLg" name="file[]" type="file" multiple>
                         </div>
                         <ul id="fileList"></ul>
                        

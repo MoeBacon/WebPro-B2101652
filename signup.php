@@ -16,7 +16,7 @@
         }
 
         .custom-switch-text1 {
-            margin-right: 2rem; /* Adjust the margin as needed */
+            margin-right: 0.5rem; /* Adjust the margin as needed */
         }
 
         .custom-switch-text2 {
